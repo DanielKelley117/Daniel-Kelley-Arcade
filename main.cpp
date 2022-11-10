@@ -3,7 +3,7 @@
 //
 #include <iostream>
 #include <string>
-#include "Games.h"
+#include "Automaton.h"
 #include "Python.h"
 #include "Java.h"
 #include "C.h"
@@ -59,7 +59,7 @@ int main() {
             cout <<"How many seconds do you want each round to last for?" << endl;
             string seconds;
             getline(cin, seconds);
-            string fourCornersCommand = "py FourCorners.py " + seconds;
+            string fourCornersCommand = "py ../FourCorners.py " + seconds;
             system( fourCornersCommand.c_str());
             points += 200;
         }

@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Daniel-Kelley-Arcade",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Arcade::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Arcade-Debug-6c55ae92e20e893769a1.json",
+					"name" : "Arcade",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "PRTest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PRTest-Debug-c3b672a70ef15d484500.json",
+					"name" : "PRTest",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Daniel Kelley/CLionProjects/Daniel-Kelley-Arcade/cmake-build-debug",
+		"source" : "C:/Users/Daniel Kelley/CLionProjects/Daniel-Kelley-Arcade"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
